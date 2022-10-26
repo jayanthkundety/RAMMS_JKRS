@@ -6,8 +6,7 @@ on:
 jobs:
  run-sonarqube-scan:
   name: Run SonarQube Scan
-  runs-on: 
-    - self-hosted
+  runs-on: [self-hosted, avowstech]
 
   steps:
    - uses: actions/checkout@v2.2.0
